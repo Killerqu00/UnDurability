@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "undurability",
+  "version": "${version}",
+
+  "name": "UnDurability",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "Apache 2.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "undurability.mixins.json",
+    "undurability-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "minecraft": ">=1.18.2"
+  }
+}
